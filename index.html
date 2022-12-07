@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate and CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="choose" id="start">
+        <h1>Escolha a cidade para ver o clima</h1>
+        <h2 style="text-align:center;">ou</h2>
+        <input placeholder="Pesquise"><button>Pesquisar</button>
+        <div class="Escolha">
+        <div id="Rio" onclick="change(id)">
+            <p>Rio de janeiro</p>
+            <img src="https://th.bing.com/th/id/R.b29239ff5ea290c8e02cc102c847644f?rik=vRNIPbc9KtZrQg&riu=http%3a%2f%2fwww.infoescola.com%2fwp-content%2fuploads%2f2011%2f02%2fbandeira-do-brasil.gif&ehk=1bPrABRwP4NgCjP9MHvsXPYX6wcw72EiPjI5EtS0SxQ%3d&risl=&pid=ImgRaw&r=0">
+
+        </div>
+        <div id="Tokyo" onclick="change(id)">
+            <p>Tokyo</p>
+            <img src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/bandeira-do-japao-oficial.jpg" height="80px">
+        </div>
+        <div id="NewYork" onclick="change(id)">
+            <p>New York</p>
+            <img src="https://th.bing.com/th/id/R.fdb5e4205cc924e04bf6283e64e462c8?rik=wOtXGiFW3AeebQ&riu=http%3a%2f%2fgeo5.net%2fimagens%2fBandeira-dos-Estados-Unidos-2000px.png&ehk=4zlmMUM64b6%2bEOmpUsxUB7wIT8W4Cd%2fBHJeds5t2Gcg%3d&risl=&pid=ImgRaw&r=0">
+        </div>
+        <div id="Xangai" onclick="change(id)">
+            <p>Xangai</p>
+            <img src="https://th.bing.com/th/id/R.dad464ba33801f7133a0f875a8cbffdf?rik=sasobt17LJKd4w&riu=http%3a%2f%2fgeo5.net%2fimagens%2fBandeira-da-China-grande.png&ehk=ekCqpsrd9n%2bvVtLEcJJyauegvEViMiAfquMhZrax0yw%3d&risl=&pid=ImgRaw&r=0">
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <section id="RioUm" style="visibility:hidden;">
+        <div class="icon"  onclick="back('RioUm')">
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg></div>
+        <h1>RIO DE JANEIRO</h1>
+        <img src="https://th.bing.com/th/id/R.b29239ff5ea290c8e02cc102c847644f?rik=vRNIPbc9KtZrQg&riu=http%3a%2f%2fwww.infoescola.com%2fwp-content%2fuploads%2f2011%2f02%2fbandeira-do-brasil.gif&ehk=1bPrABRwP4NgCjP9MHvsXPYX6wcw72EiPjI5EtS0SxQ%3d&risl=&pid=ImgRaw&r=0">
+        <p>Hoje faz 30 graus no Rio de Janeiro</p>
+        
+    </section>
+    <section id="TokyoUm" style="visibility:hidden;">
+        <div class="icon"  onclick="back('TokyoUm')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg></div>
+        <h1>Tokyo</h1>
+        <img src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/bandeira-do-japao-oficial.jpg">
+        <p>Hoje faz 5 graus no Rio de Janeiro</p>
+        
+    </section>
+    <section id="NewYorkUm" style="visibility:hidden;">
+        <div class="icon"  onclick="back('NewYorkUm')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg></div>
+        <h1>NEW YORK</h1>
+        <img src="https://th.bing.com/th/id/R.fdb5e4205cc924e04bf6283e64e462c8?rik=wOtXGiFW3AeebQ&riu=http%3a%2f%2fgeo5.net%2fimagens%2fBandeira-dos-Estados-Unidos-2000px.png&ehk=4zlmMUM64b6%2bEOmpUsxUB7wIT8W4Cd%2fBHJeds5t2Gcg%3d&risl=&pid=ImgRaw&r=0">
+        <p>Hoje faz 15 graus em nova york</p>
+        
+    </section>
+    <section id="XangaiUm" style="visibility:hidden;">
+        <div class="icon"  onclick="back('XangaiUm')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg></div>
+        <h1>Xangai</h1>
+        <img src="https://th.bing.com/th/id/R.dad464ba33801f7133a0f875a8cbffdf?rik=sasobt17LJKd4w&riu=http%3a%2f%2fgeo5.net%2fimagens%2fBandeira-da-China-grande.png&ehk=ekCqpsrd9n%2bvVtLEcJJyauegvEViMiAfquMhZrax0yw%3d&risl=&pid=ImgRaw&r=0">
+        <p>Hoje faz 25 graus em xangai</p>
+        
+    </section>
+</body>
+<script src="script.js"></script>
+</html>

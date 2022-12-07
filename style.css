@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Merriweather:ital,wght@1,300&display=swap');
+
+body{ 
+    margin: 0;
+    background-image: url(https://www.oenz.co.nz/wp-content/uploads/2022/03/20210308_121249.jpg);
+    background-repeat: no-repeat;
+}
+
+*{
+    font-family: 'Merriweather', serif;
+}
+
+
+
+section{
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: auto;
+    padding: 50px;
+    background-color: rgba(223, 116, 182, 0.776);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section img{
+    width: 150px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px black;
+}
+
+section svg{
+left: 0;
+position: absolute;
+top: 0;
+margin: 30px;
+}
+.choose{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:75%;
+    height: auto;
+    padding: 50px;
+    background-color: rgba(181, 142, 235, 0.616);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div img{
+    height: 100px;
+    border: 2px solid black;
+}
+.Escolha{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.Escolha div{
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+}
+.Escolha div:hover{
+    transition: 0.5s linear;
+    box-shadow: 0px 0px 6px black;
+}
+input{
+    background-color: rgba(137, 43, 226, 0.323);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px black;
+    padding: 5px;
+    width: 300px;
+    margin: 8px;
+
+}
+input::placeholder{
+    color: white;
+}
+button{
+    background-color: rgba(137, 43, 226, 0.323);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px black;
+    padding: 5px;
+    cursor: pointer;
+}
+.icon{
+    cursor: pointer;
+}
